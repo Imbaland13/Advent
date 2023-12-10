@@ -19,7 +19,9 @@ namespace _2.Advent
 			//Console.ReadLine();
 			Advent6 advent6 = new Advent6();
 			//advent6.Part1();
-			advent6.Part2();
+			//advent6.Part2();
+			Advent7 advent7 = new Advent7();
+			advent7.Part1();
 		}
 	}
 }
