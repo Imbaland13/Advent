@@ -103,7 +103,7 @@ namespace _2.Advent
                 {
                     occurences[j] = cards.Count(c => c == cardValues[j]);
                 }
-                if (occurences.Max() == 5 || occurences.Aggregate(x => x + occurences[3]) == 5) 
+                if (occurences.Max() == 5 || occurences.Aggregate(0,(total, next)=> next + occurences[3]) == 5) 
                 { 
                     fiveOfAKind.Add(new CompleteHands { Hand = cards, Bits = bits }); 
                 }
