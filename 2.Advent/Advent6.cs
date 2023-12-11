@@ -23,7 +23,7 @@ namespace _2.Advent
             string distancestring = sr.ReadLine();
             distancesplit = distancestring.Split(':');
             distance = InputParsing(distancesplit[1]);
-            Solutions4Boats(time, distance);
+            Solutionsfor4Boats(time, distance);
         }
         public void Part2()
         {
@@ -68,7 +68,7 @@ namespace _2.Advent
             }
             return ints;
         }
-        public void Solutions4Boats(int[] time, int[] distance)
+        public void Solutionsfor4Boats(int[] time, int[] distance)
         {
             int speed;
             int remainingtime;
@@ -107,7 +107,6 @@ namespace _2.Advent
                 remainingtime -= speed;
                 traveldistance = speed * remainingtime;
                 if(traveldistance >= distance) { results.Add(speed); }
-
             }
             Console.WriteLine(results.Count);
         }

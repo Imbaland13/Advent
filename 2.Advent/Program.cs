@@ -11,7 +11,7 @@ namespace _2.Advent
 	{
 		static void Main(string[] args)
 		{
-			var methods = new Methods();
+			var methods = new Advent4();
 			//methods.Filter();
 			//methods.Advent4();
 			//Advent7 advent7 = new Advent7();

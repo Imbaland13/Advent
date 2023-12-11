@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Advent6.cs" />
     <Compile Include="Advent7.cs" />
-    <Compile Include="Methods.cs" />
+    <Compile Include="Advent4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

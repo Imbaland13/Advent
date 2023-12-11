@@ -12,13 +12,12 @@ using System.Threading.Tasks;
 
 namespace _2.Advent
 {
-	internal class Methods
+	internal class Advent4
 	{
 		public void Filter()
 		{
 			FileStream fs = new FileStream(@"C:\Users\Tesch\Downloads\input2.txt", FileMode.Open);
 			StreamReader sr = new StreamReader(fs);
-			Methods methods = new Methods();
 			string currentString;
 			string[] splitString, Draw;
 			currentString = sr.ReadLine();
@@ -35,7 +34,7 @@ namespace _2.Advent
 				Console.WriteLine(s);
 			}
 		}
-		public void Advent4()
+		public void Part1()
 		{
 			FileStream fs = new FileStream(@"C:\Users\Tesch\Downloads\input4.txt", FileMode.Open);
 			StreamReader sr = new StreamReader(fs);
